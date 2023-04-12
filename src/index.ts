@@ -1,2 +1,3 @@
-function doGet() {
+function doGet(e: GoogleAppsScript.Events.DoGet) {
+  console.log('ok')
 }
